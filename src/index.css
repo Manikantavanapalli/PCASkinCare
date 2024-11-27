@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --primary-color: #125ee0; */
+#appBody {
+  --primary-color:3, 168, 244;
+  --hover-icon-color:#1b5796;
+  --secondary-color: #000000;
+  --app-errorMessage-color: #ce4635;
+  --form-field-border :#595959;
+  --app-White: 255, 255, 255;
+  --app-dark-color:#242528;
+  --app-modal-color:#2b2c2d;
+  --app-inputField-color:#ffffff;
+  --app-light-gray-color:#f4f4f4;
+  --app-dark-gray-color:#555555;
+}
+@media (prefers-color-scheme: dark) {
+  #appBody {
+    --primary-color: 3, 168, 244;
+    --hover-icon-color: hsl(200, 10%, 50%);
+    --secondary-color: hwb(0 100% 0%);
+    --app-errorMessage-color: hsl(5, 70%, 50%);
+    --form-field-border: hsl(228, 8%, 40%);
+    --app-white-color: hsl(0, 0%, 100%);
+    --app-dark-color:#242528;
+     --app-modal-color:#2b2c2d;
+     --app-inputField-color:#e5e7eb;
+  }
+}
+
+
+
+
+
+@font-face {
+  font-family: 'Hero New Bold';
+  src: url('/assets/fonts/Hero New Bold.otf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Hero New Medium';
+  src: url('/assets/fonts/Hero New Medium.otf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Hero New ExtraBold';
+  src: url('/assets/fonts/Hero New ExtraBold.otf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Hero New Light';
+  src: url('/assets/fonts/Hero New Light.otf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Hero New Regular';
+  src: url('/assets/fonts/Hero New Regular.otf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Hero New SemiBold';
+  src: url('/assets/fonts/Hero New SemiBold.otf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Hero New UltraLight';
+  src: url('/assets/fonts/Hero New UltraLight.otf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Hero New Thin';
+  src: url('/assets/fonts/Hero New Thin.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'swiper-icons';
+  src: url('/assets/fonts/swiper-icons.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Hero New Medium';
+  src: url('/assets/fonts/Hero New Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Hero New Super';
+  src: url('/assets/fonts/Hero New Super.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Sans Serif';
+  src: url('/assets/fonts/Sans Serif.ttf') format('truetype');
+}
+
+
+
+
+body {
+  background-color: white;
+  color:#000000;
+  font-family: 'Hero New Light';
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: hsl(228, 5%, 15%);
+    color: rgb(255, 255, 255)
+  }
+}

@@ -169,7 +169,7 @@ const NavLinks: React.FC<NavLinksProps> = ({
             </h2>
             <div className="pop_up p-4 flex gap-[3]">
               <PrimaryButton className="w-[152px] font-bold text-base text-sm font-HeroNewBold">
-                Login In
+                Login 
               </PrimaryButton>
               <PrimaryButton className="font-bold text-base text-sm font-HeroNewBold">
                 Create Account

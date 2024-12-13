@@ -206,7 +206,7 @@ const Header: React.FC<headerProps> = ({ modalSetToggle, handleRegisterClick }) 
                         click Create Account.
                       </h2>
                       <div className="pop_up p-4 flex gap-4">
-                        {/* <PrimaryButton className='w-[152px] font-bold text-base  text-sm font-HeroNewBold'>Login In</PrimaryButton> */}
+                        {/* <PrimaryButton className='w-[152px] font-bold text-base  text-sm font-HeroNewBold'>Login</PrimaryButton> */}
                         <CreateAccountButton
                           className="w-[90%] font-HeroNewBold text-sm"
                           onClick={modalSetToggle}
@@ -265,7 +265,7 @@ const Header: React.FC<headerProps> = ({ modalSetToggle, handleRegisterClick }) 
                     If you have a professional account, please login. If you would like to establish a professional account please click Create Account.
                   </h2>
                   <div className='pop_up p-4 m-1 flex gap-[3] tm:pr-[5px] tm:pl-[24px] gap-4 text-nowrap'>
-                    <CreateAccountButton className='w-[148px] font-HeroNewBold text-sm' onClick={modalSetToggle}>Login In</CreateAccountButton>
+                    <CreateAccountButton className='w-[148px] font-HeroNewBold text-sm' onClick={modalSetToggle}>Login</CreateAccountButton>
                     <CreateAccountButton className='w-[148px] font-HeroNewBold text-sm' onClick={handleRegisterClick}>Register Now</CreateAccountButton>
                   </div>
                 </Popover>
